@@ -6,6 +6,7 @@ def line(katz_deli)
     katz_deli.each do |name| {
       line_string = line_string + "#{katz_deli.index(name)}. #{name} "
     }
+    end
     puts line_string
   else 
     puts "The line is currently empty."

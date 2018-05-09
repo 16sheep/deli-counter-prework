@@ -3,7 +3,7 @@
 def line(katz_deli)
   if katz_deli.length > 0
     line_string = "The line is currently: "
-    katz_deli.each_with_index {|item, index = 1| 
+    katz_deli.each_with_index {|name, index = 1| 
       line_string = line_string + "#{index}. #{name} "
     }
     puts line_string
